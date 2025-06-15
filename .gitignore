@@ -1,27 +1,27 @@
-Build directories
+Build artifacts
 
-build/ bin/ obj/
+build/
 
-CMake generated files
-
-CMakeCache.txt CMakeFiles/ cmake_install.cmake Makefile
-
-Compiled object files
+Object files
 
 *.o *.obj
 
 Executables
 
-imu_app *.exe
+*.exe ydlidar_x4_app
+
+Libraries
+
+*.a *.so
+
+CMake generated files
+
+CMakeCache.txt CMakeFiles/ cmake_install.cmake Makefile
 
 Editor temporary files
 
-*~ *.swp *.swo
+*.swp *~
 
-IDE files
+Sensitive files
 
-.vscode/ .idea/
-
-Miscellaneous
-
-*.log *.bak *.tmp
+.git-credentials
