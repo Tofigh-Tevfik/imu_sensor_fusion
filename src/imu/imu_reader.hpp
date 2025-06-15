@@ -5,7 +5,7 @@
 
 class IMUReader {
     private:
-    IMUData imu_data;
+        IMUData imu_data;
 
     public:
         IMUReader();
@@ -16,6 +16,6 @@ class IMUReader {
         virtual bool read_temperature(float& temp) = 0;
         virtual bool set_gyro_range(float range) = 0; // configuration method
         virtual bool set_accel_range(float range) = 0; // configuration method
-}
+};
 
 #endif

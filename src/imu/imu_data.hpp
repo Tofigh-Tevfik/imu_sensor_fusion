@@ -22,6 +22,6 @@ struct IMUData {
     int32_t temperature;
     gyro gyro_data;
     accel accel_data;
-}
+};
 
 #endif
