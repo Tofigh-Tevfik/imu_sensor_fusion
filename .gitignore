@@ -1,0 +1,27 @@
+Build directories
+
+build/ bin/ obj/
+
+CMake generated files
+
+CMakeCache.txt CMakeFiles/ cmake_install.cmake Makefile
+
+Compiled object files
+
+*.o *.obj
+
+Executables
+
+imu_app *.exe
+
+Editor temporary files
+
+*~ *.swp *.swo
+
+IDE files
+
+.vscode/ .idea/
+
+Miscellaneous
+
+*.log *.bak *.tmp
