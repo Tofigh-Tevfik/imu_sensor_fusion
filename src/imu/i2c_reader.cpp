@@ -3,7 +3,7 @@
 
 // stub impelementation
 I2CReader::I2CReader(const std::string& i2c_bus, uint8_t address) 
-    : fd(-1), i2c_address(address) {
+    : i2c_fd(-1), i2c_address(address) {
     throw::std::runtime_error("I2CReader class not implemented");
 }
 
