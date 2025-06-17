@@ -9,6 +9,7 @@ set(IMU_SOURCE_DIR ${CMAKE_SOURCE_DIR}/src/imu)
 
 add_library(imu_reader STATIC
     ${IMU_SOURCE_DIR}/imu_reader.cpp
+    ${IMU_SOURCE_DIR}/i2c_reader.cpp
 )
 
 target_include_directories(imu_reader PUBLIC ${IMU_SOURCE_DIR})
