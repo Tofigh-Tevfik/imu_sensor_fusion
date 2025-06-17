@@ -22,6 +22,8 @@ The **imu_sensor_fusion** project aims to read accelerometer and gyroscope data 
 
 ## Future Goals
 
+- Currently doing Stub implementation, because I am lacking some hardware to fully implement everything.
+
 - Implement `I2CReader` to communicate with the ICM-42688-P via I2C, configuring settings like �16g accelerometer range, �2000 dps gyroscope range, and 100 Hz output data rate.
 
 - Develop a `SimulatedIMUReader` for testing without hardware.
