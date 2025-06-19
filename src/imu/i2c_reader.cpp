@@ -4,7 +4,17 @@
 // stub impelementation
 I2CReader::I2CReader(const std::string& i2c_bus, uint8_t address) 
     : i2c_fd(-1), i2c_address(address) {
-    throw::std::runtime_error("I2CReader class not implemented");
+    // Open I2C bus
+    i2c_fd = open(i2c_bus.c_str(), O_RDWR);
+    if (i2c_fd < 0) {
+        throw std::runtime_error("Failed to open I2C bus: " + i2c_bus);
+    }
+    // Set I2C device address
+    if (ioctl(i2c_fd, I2C_SLAVE, address) < 0) {
+        close(i2c_fd);
+        i2c_fd = -1;
+        throw std::runtime_error("Failed to set I2C address: 0x" + std::to_string(address));
+    }
 }
 
 I2CReader::~I2CReader() {}
