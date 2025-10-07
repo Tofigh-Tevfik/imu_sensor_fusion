@@ -87,5 +87,20 @@ The following filters are implemented and compared:
 
 ---
 
-## 📁 Repository Structure
+### 📁 Repository Structure
+
+ESP32-Orientation-Filters/
+│
+├── src/
+│   ├── lib/
+│   │   ├── IMU/                # IMU data acquisition over I2C
+│   │   └── Filters/            # All filter implementations (Low-pass, Complementary, Madgwick, Mahony, EKF)
+│   └── main.cpp                # Main firmware entry point for ESP32
+│
+├── python_visualizer/
+│   └── over_udp.py             # Python script for real-time UDP data visualization
+│
+├── docs/                       # Documentation, analysis, and filter performance results
+└── README.md                   # Project documentation (this file)
+
 
