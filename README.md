@@ -87,7 +87,7 @@ The following filters are implemented and compared:
 
 ---
 
-### 📁 Repository Structure
+## 📁 Repository Structure
 
 <details>
 <summary><b>src/</b></summary>
