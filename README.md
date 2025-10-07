@@ -109,11 +109,8 @@ The following filters are implemented and compared:
 <details>
 <summary><b>docs/</b></summary>
 
-- Documentation, analysis, and filter performance results  
+- Documentation
 
-</details>
-
-**README.md** — Project documentation (this file)
 
 
 
