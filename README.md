@@ -110,7 +110,7 @@ The following filters are implemented and compared:
 <summary><b>docs/</b></summary>
 
 - Documentation
-
+</details>
 ## YouTube Video
 
 Check out the video demonstration here: [Watch on YouTube](https://youtu.be/vNDOOl13mXI)
